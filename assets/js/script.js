@@ -18,14 +18,14 @@ let CpCode = Math.floor(Math.random() * 99999) + 10000;
 
 if (valueage == 'minorenne') {
     price = price * 0.8;
-    console.log('minorenne')
+    //console.log('minorenne')
 
 } else if (valueage == 'over65'){
     price = price * 0.6;
-    console.log('over65')
+    //console.log('over65')
 } else {
     cost = price
-    console.log('maggiorenne')
+    //console.log('maggiorenne')
 }
 
 document.getElementById('cost').innerHTML = `${price.toFixed(2)} €`
