@@ -2,7 +2,7 @@ function generate() {
 
 const fixedPrice = "0.21"
 
-let nome = document.getElementById('name').value
+let cliente = document.getElementById('passenger').value
 console.log('non capisco')
 
 let valueKm = document.getElementById('km').value
@@ -30,7 +30,7 @@ if (valueage == 'minorenne') {
 
 document.getElementById('cost').innerHTML = `${price.toFixed(2)} €`
 
-document.getElementById('name').innerHTML = `${nome}`
+document.getElementById('nome').innerHTML = `${cliente}`
 console.log('machè')
 
 document.getElementById('carrozza').innerHTML = `${carrozza}`
